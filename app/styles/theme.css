@@ -1,0 +1,150 @@
+:root {
+  --oui-font-family: 'Nunito', sans-serif;
+  --oui-font-size-base: 16px;
+
+  /* colors */
+  --oui-color-primary: 102 66 0;
+  --oui-color-primary-light: 143 102 66;
+  --oui-color-primary-darken: 66 45 11;
+  --oui-color-primary-contrast: 255 255 255;
+
+  --oui-color-link: 152 118 82;
+  --oui-color-link-light: 189 152 133;
+
+  --oui-color-secondary: 117 85 63;
+  --oui-color-tertiary: 107 85 80;
+  --oui-color-quaternary: 107 85 80;
+
+  --oui-color-danger: 150 44 66;
+  --oui-color-danger-light: 194 88 122;
+  --oui-color-danger-darken: 122 33 56;
+  --oui-color-danger-contrast: 255 255 255;
+
+  --oui-color-success: 34 139 34;
+  --oui-color-success-light: 88 194 88;
+  --oui-color-success-darken: 23 78 23;
+  --oui-color-success-contrast: 255 255 255;
+
+  --oui-color-warning: 181 101 29;
+  --oui-color-warning-light: 220 165 82;
+  --oui-color-warning-darken: 165 82 0;
+  --oui-color-warning-contrast: 255 255 255;
+
+  --oui-color-fill: 45 39 56;
+  --oui-color-fill-active: 50 53 66;
+
+  --oui-color-base-1: 74 57 43;
+  --oui-color-base-2: 64 52 51;
+  --oui-color-base-3: 57 49 54;
+  --oui-color-base-4: 49 44 51;
+  --oui-color-base-5: 44 41 49;
+  --oui-color-base-6: 39 38 46;
+  --oui-color-base-7: 33 34 43;
+  --oui-color-base-8: 28 30 39;
+  --oui-color-base-9: 23 26 36;
+  --oui-color-base-10: 17 22 29;
+
+  --oui-color-base-foreground: 255 255 255;
+  --oui-color-line: 255 255 255;
+
+  --oui-color-trading-loss: 150 44 66;
+  --oui-color-trading-loss-contrast: 255 255 255;
+  --oui-color-trading-profit: 34 139 34;
+  --oui-color-trading-profit-contrast: 255 255 255;
+
+  /* gradients */
+  --oui-gradient-primary-start: 92, 64, 51;
+  --oui-gradient-primary-end: 118, 84, 66;
+
+  --oui-gradient-secondary-start: 72, 54, 42;
+  --oui-gradient-secondary-end: 101, 77, 60;
+
+  --oui-gradient-success-start: 34, 102, 34;
+  --oui-gradient-success-end: 46, 139, 46;
+
+  --oui-gradient-danger-start: 139, 35, 53;
+  --oui-gradient-danger-end: 165, 48, 70;
+
+  --oui-gradient-brand-start: 89, 60, 31;
+  --oui-gradient-brand-end: 120, 90, 60;
+  --oui-gradient-brand-stop-start: 12%;
+  --oui-gradient-brand-stop-end: 88%;
+  --oui-gradient-brand-angle: 12deg;
+
+  --oui-gradient-warning-start: 181, 118, 35;
+  --oui-gradient-warning-end: 199, 135, 40;
+
+  --oui-gradient-neutral-start: 45, 42, 40;
+  --oui-gradient-neutral-end: 65, 60, 55;
+
+  /* rounded */
+  --oui-rounded-sm: 17px;
+  --oui-rounded: 17px;
+  --oui-rounded-md: 17px;
+  --oui-rounded-lg: 17px;
+  --oui-rounded-xl: 17px;
+  --oui-rounded-2xl: 17px;
+  --oui-rounded-full: 9999px;
+
+  /* spacing */
+  --oui-spacing-xs: 20rem;
+  --oui-spacing-sm: 22.5rem;
+  --oui-spacing-md: 26.25rem;
+  --oui-spacing-lg: 30rem;
+  --oui-spacing-xl: 33.75rem;
+}
+
+html, body {
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 16px !important;
+}
+
+.oui-neon {
+  text-shadow: 0 0 4px rgba(0, 200, 255, 0.7);
+}
+
+
+
+/* -------------------------------------------------
+   🌈 BUTTONS
+------------------------------------------------- */
+.oui-button {
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  background: rgb(var(--oui-color-primary));
+  color: rgb(var(--oui-color-primary-contrast));
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.oui-button:hover {
+  background: rgb(var(--oui-color-primary-light));
+}
+.oui-button:active { transform: scale(0.95); }
+.oui-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* -------------------------------------------------
+   📊 CARDS / BOXES
+------------------------------------------------- */
+.parent {
+  perspective: 1500px; /* quasi piatto */
+}
+
+.oui-box {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.oui-box:hover {
+  transform: scale(1.002); /* appena percettibile */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* ombra leggerissima */
+}
+/* -------------------------------------------------
+   🚫 FOOTER
+------------------------------------------------- */
+.oui-scaffold-footer-powered-by {
+  display: none !important;
+}

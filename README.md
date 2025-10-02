@@ -1,71 +1,101 @@
-# 🪓 HyperNigga – Feed My Village with 100x Leverage
+# Orderly Broker UI Template
 
-Ugh. Me chief of trading tribe. Me bring you **HyperNigga**, big decentralized platform for **perpetual futures** on mighty crypto spirits like BTC, ETH, and more.  
-Warriors of the village can hunt profits… or burn village with one click, using leverage up to **100x**.  
+This template provides a quick way to set up a customized trading UI for Orderly Network brokers, built with Remix and deployable on Vercel.
 
----
+🔗 [Live Demo](https://broker-template-seven.vercel.app/)
 
-## ✨ Powers of the Gods (Key Features)
+## Quick Start
 
-- **Perpetual trading** on major cryptocurrencies: BTC, ETH, and other totems.
-- **Up to 100x leverage** for brave warriors.
-- **High-speed matching engine** – faster than wild horse stampede.
-- **Secure on-chain settlement** – every trade written in blockchain runes.
-- **Intuitive trading interface** – even young apprentice can trade.
-- **Real-time risk management** – shaman warns when feast may turn famine.
+1. **Fork the Repository**
+   
+   Fork this repository to your GitHub account to create your broker's UI.
 
----
+2. **Clone Your Fork**
 
-## 🚀 First Steps for Warriors (Getting Started)
-
-Follow these steps to join the tribe and start trading:
-
-```bash
-# Clone repository like stealing sacred fire
-git clone https://github.com/thomas-dev-defi/hypernigga-dex.git
-
-# Enter project folder
-cd hypernigga
-
-# Install dependencies (modern magic, not healing herbs)
-npm install
-
-# Deploy on your preferred blockchain or server
-npm run deploy
+```sh
+git clone https://github.com/YOUR_USERNAME/broker-template.git
+cd broker-template
 ```
-## 🛠 Tribe Tools (Tech Stack)
 
-- **Smart contracts** – magical scrolls controlling perpetual trades.  
-- **Matching engine** – ultra-low latency for lightning-fast trades.  
-- **Wallet integrations** – seamless onboarding for village warriors.  
+3. **Install Dependencies**
 
----
+```sh
+yarn install
+```
 
-## ⚡ Why HyperNigga?
+## Configuration Steps
 
-HyperNigga gives your tribe **institutional-grade trading tools**, fully on-chain and fully transparent.  
-Trade like a chief, survive like a tribe, prosper like legend… or burn village with style.  
+### 1. Broker Configuration
 
----
+Edit the `.env` file to set up your broker details:
 
-## 🏹 Tribe Rules
+```env
+# Broker settings
+VITE_ORDERLY_BROKER_ID=your_broker_id
+VITE_ORDERLY_BROKER_NAME=Your Broker Name
+VITE_ORDERLY_NETWORK_ID=mainnet  # or testnet for testing
 
-- Only brave warriors may enter.  
-- Respect the runes of the blockchain.  
-- High leverage brings glory… or ashes.  
+# Meta tags
+VITE_APP_NAME=Your App Name
+VITE_APP_DESCRIPTION=Your app description for SEO
 
----
+# Navigation menu configuration (optional)
+VITE_ENABLED_MENUS=Trading,Portfolio,Markets,Leaderboard
+VITE_CUSTOM_MENUS=Documentation,https://docs.yoursite.com;Blog,https://blog.yoursite.com;Support,https://support.yoursite.com
+```
 
-## 🔮 Optional Epic Saga Add-On
+### 2. Theme Customization
 
-Me tell story: long time ago, tribe seek profit in mystical lands of crypto.  
-With HyperNigga, young warriors learn magic of **perpetual futures**, wield **100x leverage**, and face dragons of volatility.  
-Tribe grows strong, feast never ends… unless moon turns red, then ashes cover village.  
-Trade smart, trade brave, live legend.  
+1. Visit the [Orderly Storybook Trading Page](https://storybook.orderly.network/?path=/story/package-trading-tradingpage--page)
+2. Customize your preferred theme using the controls
+3. Export the generated CSS
+4. Replace the contents of `app/styles/theme.css` with your exported CSS
 
----
+### 3. UI Configuration
 
-## ⚔️ Join the Tribe
+Edit `app/utils/config.tsx` to customize your UI:
 
-Bring your courage, your wits, and your wallet.  
-HyperNigga awaits. Let fire of profit burn bright… or gently roast your huts. 
+- **Footer Links**: Update `footerProps` with your social media links
+- **Logos**: Replace the main and secondary logos in the `appIcons` section
+- **PnL Sharing**: Customize the PnL poster backgrounds and colors in `sharePnLConfig`
+
+Required assets:
+- Place your logos in the `public` directory:
+  - Main logo: `public/orderly-logo.svg`
+  - Secondary logo: `public/orderly-logo-secondary.svg`
+  - Favicon: `public/favicon.webp`
+- PnL sharing backgrounds: `public/pnl/poster_bg_[1-4].png`
+
+## Development
+
+Run the development server:
+
+```sh
+yarn dev
+```
+
+## Deployment
+
+1. Build the application:
+
+```sh
+yarn build
+```
+
+2. Deploy to Vercel:
+   - Create an account on [Vercel](https://vercel.com) if you haven't already
+   - Install Vercel CLI: `yarn global add vercel`
+   - Run `vercel` in your project directory and follow the prompts
+   - For subsequent deployments, use `vercel --prod` to deploy to production
+
+For custom domain setup:
+   - Go to your project settings in Vercel dashboard
+   - Navigate to the "Domains" section
+   - Add and configure your custom domain
+
+## Additional Resources
+
+- [Orderly JS SDK Documentation](https://github.com/OrderlyNetwork/js-sdk)
+- [Orderly Network Documentation](https://orderly.network/docs/sdks)
+- [Storybook Theme Editor](https://storybook.orderly.network/?path=/story/package-trading-tradingpage--page)
+
