@@ -1,43 +1,72 @@
-🪓 HyperPerps – Feed My Village with 100x Leverage
+# 🪓 HyperPerps – Feed My Village with 100x Leverage
 
-Ugh. Me chief of trading tribe. Me bring you HyperPerps, decentralized platform for perpetual futures on mighty crypto spirits like BTC, ETH, and more. Warriors of the village can hunt profits… or burn the village with one click, using leverage up to 100x.
+Ugh. Me chief of trading tribe. Me bring you **HyperPerps**, big decentralized platform for **perpetual futures** on mighty crypto spirits like BTC, ETH, and more.  
+Warriors of the village can hunt profits… or burn village with one click, using leverage up to **100x**.  
 
-✨ Key Features
+---
 
-Perpetual trading on major cryptocurrencies: BTC, ETH, and other totems.
+## ✨ Powers of the Gods (Key Features)
 
-Up to 100x leverage for brave warriors.
+- **Perpetual trading** on major cryptocurrencies: BTC, ETH, and other totems.
+- **Up to 100x leverage** for brave warriors.
+- **High-speed matching engine** – faster than wild horse stampede.
+- **Secure on-chain settlement** – every trade written in blockchain runes.
+- **Intuitive trading interface** – even young apprentice can trade.
+- **Real-time risk management** – shaman warns when feast may turn famine.
 
-High-speed matching engine – faster than wild horse stampede.
+---
 
-Secure on-chain settlement – every trade written in blockchain runes.
+## 🚀 First Steps for Warriors (Getting Started)
 
-Intuitive trading interface – even apprentices can trade.
+Follow these steps to join the tribe and start trading:
 
-Real-time risk management – shaman warns when feast may turn famine.
-
-🚀 Getting Started
-
-Clone this repository like stealing sacred fire from neighboring tribe:
-
+```bash
+# Clone repository like stealing sacred fire
 git clone https://github.com/your-repo/hyperperps.git
 
+# Enter project folder
+cd hyperperps
 
-Install dependencies (modern magic, not healing herbs):
-
+# Install dependencies (modern magic, not healing herbs)
 npm install
 
+# Deploy on your preferred blockchain or server
+npm run deploy
 
-Deploy on your preferred blockchain or server that won’t explode.
+## 🛠 Tribe Tools (Tech Stack)
 
-🛠 Tech Stack
+- **Smart contracts** – magical scrolls controlling perpetual trades.  
+- **Matching engine** – ultra-low latency for lightning-fast trades.  
+- **Wallet integrations** – seamless onboarding for village warriors.  
 
-Smart contracts: magical scrolls controlling perpetual trades.
+---
 
-Matching engine: ultra-low latency for lightning-fast trades.
+## ⚡ Why HyperPerps?
 
-Wallet integrations: seamless onboarding for village warriors.
+HyperPerps gives your tribe **institutional-grade trading tools**, fully on-chain and fully transparent.  
+Trade like a chief, survive like a tribe, prosper like legend… or burn village with style.  
 
-⚡ Why HYPERNIGGA?
+---
 
-HYPERNIGGA brings institutional-grade trading tools to your decentralized village. Fully on-chain, fully transparent, and fully savage. Trade like a chief, survive like a tribe.
+## 🏹 Tribe Rules
+
+- Only brave warriors may enter.  
+- Respect the runes of the blockchain.  
+- High leverage brings glory… or ashes.  
+
+---
+
+## 🔮 Optional Epic Saga Add-On
+
+Me tell story: long time ago, tribe seek profit in mystical lands of crypto.  
+With HyperPerps, young warriors learn magic of **perpetual futures**, wield **100x leverage**, and face dragons of volatility.  
+Tribe grows strong, feast never ends… unless moon turns red, then ashes cover village.  
+Trade smart, trade brave, live legend.  
+
+---
+
+## ⚔️ Join the Tribe
+
+Bring your courage, your wits, and your wallet.  
+HyperPerps awaits. Let fire of profit burn bright… or gently roast your huts.  
+
