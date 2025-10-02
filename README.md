@@ -22,7 +22,7 @@ Follow these steps to join the tribe and start trading:
 
 ```bash
 # Clone repository like stealing sacred fire
-git clone https://github.com/your-repo/hypernigga.git](https://github.com/thomas-dev-defi/hypernigga-dex.git
+git clone https://github.com/thomas-dev-defi/hypernigga-dex.git
 
 # Enter project folder
 cd hypernigga
